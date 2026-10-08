@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Pokédex",
+    "slug": "pokedex-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#EF4444"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.genwhooo.pokedexapp"
+    },
+    "android": {
+      "package": "com.genwhooo.pokedexapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#EF4444"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
